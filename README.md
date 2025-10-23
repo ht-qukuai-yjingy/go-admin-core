@@ -1,4 +1,5 @@
-# ht-qukuai-yjingy 公共代码库
+# go-admin-core 代码库
+保持在 go1.23 版本下更新依赖版本。
 
 ### 功能
  - [x] log组件
