@@ -1,4 +1,4 @@
-module github.com/ht-qukuai-yjingy/go-admin-core/sdk
+module github.com/go-admin-team/go-admin-core/sdk
 
 go 1.23.0
 
@@ -8,9 +8,8 @@ require (
 	github.com/casbin/gorm-adapter/v3 v3.37.0
 	github.com/chanxuehong/wechat v0.0.0-20230222024006-36f0325263cd
 	github.com/gin-gonic/gin v1.10.0
-	github.com/ht-qukuai-yjingy/go-admin-core v1.5.3-rc.3.1
-	github.com/ht-qukuai-yjingy/go-admin-core/plugins/logger/zap v1.5.3-rc.3.1
-	github.com/ht-qukuai-yjingy/go-admin-core/sdk v1.5.2
+	github.com/go-admin-team/go-admin-core v1.5.3-rc.2
+	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.20.0
@@ -34,7 +33,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.1 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
-	github.com/bsm/redislock v0.9.4 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/casbin/govaluate v1.3.0 // indirect
@@ -42,7 +40,6 @@ require (
 	github.com/chanxuehong/rand v0.0.0-20211009035549-2f07823e8e99 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
-	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
@@ -81,7 +78,6 @@ require (
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
-	github.com/redis/go-redis/v9 v9.3.1 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230126093431-47fa9a501578 // indirect
 	github.com/smarty/assertions v1.15.0 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
@@ -108,4 +104,4 @@ require (
 	modernc.org/sqlite v1.20.3 // indirect
 )
 
-//replace github.com/ht-qukuai-yjingy/go-admin-core => ../
+//replace github.com/go-admin-team/go-admin-core => ../
