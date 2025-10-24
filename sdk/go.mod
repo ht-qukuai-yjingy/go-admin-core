@@ -9,7 +9,7 @@ require (
 	github.com/chanxuehong/wechat v0.0.0-20230222024006-36f0325263cd
 	github.com/gin-gonic/gin v1.10.0
 	github.com/ht-qukuai-yjingy/go-admin-core v1.5.3-rc.3.1
-	github.com/ht-qukuai-yjingy/go-admin-core/plugins/logger/zap v1.5.2
+	github.com/ht-qukuai-yjingy/go-admin-core/plugins/logger/zap v1.5.3-rc.3.1
 	github.com/ht-qukuai-yjingy/go-admin-core/sdk v1.5.2
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
