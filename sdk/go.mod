@@ -1,4 +1,4 @@
-module github.com/go-admin-team/go-admin-core/sdk
+module github.com/ht-qukuai-yjingy/go-admin-core/sdk
 
 go 1.23.0
 
@@ -8,7 +8,6 @@ require (
 	github.com/casbin/gorm-adapter/v3 v3.37.0
 	github.com/chanxuehong/wechat v0.0.0-20230222024006-36f0325263cd
 	github.com/gin-gonic/gin v1.10.0
-	github.com/go-admin-team/go-admin-core v1.5.3-rc.2
 	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
@@ -16,6 +15,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/google/uuid v1.5.0
 	github.com/gorilla/websocket v1.5.0
+	github.com/ht-qukuai-yjingy/go-admin-core v1.5.3-rc.3.1
 	github.com/mojocn/base64Captcha v1.3.6
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shamsher31/goimgext v1.0.0
@@ -47,6 +47,7 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/glebarez/go-sqlite v1.20.3 // indirect
 	github.com/glebarez/sqlite v1.7.0 // indirect
+	github.com/go-admin-team/go-admin-core v1.3.5-rc.0 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
@@ -104,4 +105,4 @@ require (
 	modernc.org/sqlite v1.20.3 // indirect
 )
 
-//replace github.com/go-admin-team/go-admin-core => ../
+//replace github.com/ht-qukuai-yjingy/go-admin-core => ../
